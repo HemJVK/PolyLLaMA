@@ -1,0 +1,2 @@
+gunicorn llm:app --bind 0.0.0.0:8000 --workers 1 --worker-class uvicorn.workers.UvicornWorker
+streamlit run app.py
